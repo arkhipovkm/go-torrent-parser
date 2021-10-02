@@ -1,4 +1,4 @@
-module go-torrent-parser
+module github.com/arkhipovkm/go-torrent-parser
 
 go 1.17
 
