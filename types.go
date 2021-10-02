@@ -54,6 +54,8 @@ type Torrent struct {
 	// Creation time
 	CreatedAt time.Time
 
+	Info *InfoMetadata
+
 	// Torrent SHA1
 	InfoHash string
 

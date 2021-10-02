@@ -67,6 +67,7 @@ func Parse(reader io.Reader) (*Torrent, error) {
 		Comment:   metadata.Comment,
 		CreatedBy: metadata.CreatedBy,
 		CreatedAt: time.Unix(metadata.CreatedAt, 0),
+		Info:      info,
 		InfoHash:  toSHA1(metadata.Info),
 		Files:     files,
 	}, nil
